@@ -3,7 +3,8 @@ const defaultState = {
     list:[
         '早上4点起床，锻炼身体',
         '中午下班游泳一小时',
-        '晚上打机一小时'
+        '晚上打机一小时',
+        '宵夜洗澡睡觉'
     ]
 }  //默认数据
 export default (state = defaultState,action)=>{
