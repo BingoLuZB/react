@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'antd-mobile'
 import { observer, inject } from 'mobx-react'
+import '../index.scss'
 
 @inject("homeStore")
 @observer
@@ -18,7 +19,7 @@ class Home extends Component {
                 <Button type="primary">button</Button>
                 <div>
                     <h1>首页数据源的number为:{this.props.homeStore.homeNum}</h1>
-                    <button onClick={() => {this.props.homeStore.addNum()}} >
+                    <button onClick={() => {this.props.homeStore.addNum()}} className='btn1'>
                         点击添加
                     </button>
                     <button  onClick={() => {this.props.homeStore.lessNum()}}>
