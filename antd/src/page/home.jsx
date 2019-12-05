@@ -16,6 +16,9 @@ class Home extends Component {
                 <button onClick={() => { this.props.history.push('/one') }}>
                     跳到第一个页面
                 </button>
+                <div className="test" >
+                    654654
+                </div>
                 <Button type="primary">button</Button>
                 <div>
                     <h1>首页数据源的number为:{this.props.homeStore.homeNum}</h1>

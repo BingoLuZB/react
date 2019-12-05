@@ -16,6 +16,7 @@ import ReactDOM from "react-dom";
 import Router from "./router/router";
 import { Provider } from "mobx-react";
 import stores from "./store";
+import 'lib-flexible'
 ReactDOM.render(
   <Provider {...stores}>
     <Router />
